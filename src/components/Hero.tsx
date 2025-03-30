@@ -108,9 +108,6 @@ const Hero: FC = () => {
             
             {/* Attribution and Countdown */}
             <div className="space-y-3">
-              <p className="text-gray-400 text-sm tracking-wide">
-                A PROJECT BY PERK.EXCHANGE
-              </p>
               <p className="text-gray-500 text-sm font-light">
                 {timeLeft} • Community-driven launch
               </p>
