@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  color: #ffffff;
+  background: #000000;
+  min-height: 100vh;
+  font-feature-settings: "ss01", "ss02", "cv01", "cv02";
+}
+
+/* Add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #fff 20%, rgba(255, 255, 255, 0.7));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
